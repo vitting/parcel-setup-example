@@ -1,0 +1,20 @@
+{
+    "cities": [
+        {
+            "city": "Silkeborg",
+            "zipCode": 8600
+        },
+        {
+            "city": "Vejle",
+            "zipCode": 7100
+        },
+        {
+            "city": "Skanderborg",
+            "zipCode": 8660
+        },
+        {
+            "city": "Hørning",
+            "zipCode": 8362
+        }
+    ]
+}

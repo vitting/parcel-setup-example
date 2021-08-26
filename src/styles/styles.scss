@@ -1,0 +1,63 @@
+@import "reset";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --default-border-radius: 4px;
+  --button-bg-color: rgb(66, 62, 62);
+  --button-text-color: #fff;
+  --button-hover-bg-color: rgb(114, 109, 109);
+  --container-border-color: rgb(214, 213, 213);
+}
+
+body {
+  padding: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+button {
+  border: none;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  font-size: 1em;
+  padding: 5px;
+  border-radius: var(--default-border-radius);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.example {
+  border: 1px solid var(--container-border-color);
+  padding: 1em;
+  border-radius: var(--default-border-radius);
+  margin-bottom: 1em;
+}
+
+.container {
+  margin-top: 1em;
+}
+
+.link-container {
+  a {
+    color: darkblue;
+  }
+}
+
+ul {
+  padding: 0;
+
+  li {
+    list-style: none;
+
+    &:nth-child(even) {
+      background-color: rgb(241, 241, 241);
+    }
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.scss">
+    <title>Parcel Example</title>
+</head>
+<body>
+    <h1>Parcel bundler</h1>
+    <div class="example">
+        <input class="input-name" placeholder="Write your name here">
+        <button id="addNameButton">Insert name</button>
+        <div class="div-container">Hey my name is: <span class="name"></span></div>
+    </div>
+    
+    <div class="example">
+        <button id="addGuidButton">Generate a Guid</button>
+        <div class="div-container">Generated Guid is: <span class="guid"></span></div>
+    </div>
+
+    <div class="example">
+        <button id="addJsonButton">Show Json Data</button>
+        <div class="json-container"></div>
+    </div>
+    <div class="example">
+        <a href="./somepage.html">Link to another page</a>
+    </div>
+    
+    <div class="steps-container container">
+        <h3>Steps for this example:</h3>
+            <pre>
+                <code>
+                    mkdir projectdir
+                    cd projectdir
+                    npm init -y
+                    mkdir src
+                    npm i -D typescript
+                    npm i -D parcel-bundler
+                    npm i -D scss
+                    npm i -D @types/guid
+                    np mi -D rimraf
+                    npm i guid
+                    npx tsc --init (Generate a tsconfig.json file)
+                </code>
+            </pre>
+            <p>Changes made to tsconfig.json</p>
+            <p>Changes made to scripts section in package.json</p>
+            <p>Added files to src folder</p>
+            <pre>
+                <code>
+                    npm start (To run dev-server)
+                    npm run build (To build project)
+                </code>
+            </pre>
+    </div>
+
+    <div class="link-container container">
+        <a href="https://parceljs.org/getting_started.html" target="_blank" rel="noopener noreferrer">Parcel Documentation</a>
+    </div>
+    <script src="./scripts/index.ts"></script>
+</body>
+</html>
